@@ -190,6 +190,8 @@
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Controllers\AccountController.vb" />
+    <Compile Include="Controllers\EMSRunsheetController.vb" />
+    <Compile Include="Controllers\HelloWorldController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -256,6 +258,9 @@
     <Content Include="Views\Account\Manage.vbhtml" />
     <Content Include="Views\Account\Register.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
+    <Content Include="Views\HelloWorld\Index.vbhtml" />
+    <Content Include="Views\EMSRunsheet\Index.vbhtml" />
+    <Content Include="Views\EMSRunsheet\Welcome.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
